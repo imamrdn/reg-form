@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap');
+
+*, *:before, *:after  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+    font-family: 'Nunito', sans-serif;
+}
+
+body    {
+    width: 100%;
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.navbar{
+    background-color: #2e2e2e;
+    font-size: 19px;
+    padding: 1.5em 10em;
+}
+
+.home   {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.nav-button {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    float: right;
+    margin: 0 1em;
+    padding: 0.5em 2em;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 19px;
+}
+
+input  {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray;
+    background: none;
+    padding-top: 2em;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+::placeholder{
+    font-size: 19px;
+    padding: 5px;
+    color: #D3D3D8;
+}
+
+.container  {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: 4em;
+    width: 1000px;
+    height: 520px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.right-box    {
+    width: 61%;
+    background-color: #2e2e2e;
+    float: right;
+    padding: 5em 1em 8em 1em;
+}
+
+.reg-form   {
+    width: 50%;
+    text-align: center;
+    margin: 0 25%;
+}
+
+.left-box    {
+    padding: 3.5em 2.5em;
+    width: 39%;
+    background-color: #4d4d4d;
+    float: left;
+    text-align: center;
+}
+
+.left-box > h2  {
+    color: whitesmoke;
+}
+
+.content > p{
+    margin: 0 2.5em; 
+    color: #d3d3d8;
+}
+.content > p > a    {
+    text-decoration: none;
+    color: #3333FF;
+}
+
+.content > a{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.content > a > img {
+    width: 2.8em;
+    color: rgba(0, 0, 0, 0.445);
+    padding-top: 4em;
+    padding-right: 1em;
+}
+
+label   {
+    display: block;
+    text-align: left;
+    padding: 1.5em 0 0.5em 0;
+    color:  #D3D3D8;
+    font-size: 18px;
+}
+
+select  {
+    border: none;
+    background: none;
+    color: gray;
+    float: left;
+    padding-right: 0.6em;
+    font-size: 15px;
+}
+
+select > option {
+    color: black;
+}
+
+.reg-button, .reg-button > a {
+    background-color: #4d4d4d;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
